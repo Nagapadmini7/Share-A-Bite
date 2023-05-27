@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+body{
+    background: var(--color-bg);
+}
+a{
+    color: unset;
+    text-decoration: none;
+
+}
+.gradient__bg{
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(46deg, rgba(13, 2, 113, 1) 0%, rgba(6, 109, 170, 1) 50%, rgba(14, 4, 100, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(46deg, rgba(13, 2, 113, 1) 0%, rgba(6, 109, 170, 1) 50%, rgba(14, 4, 100, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(46deg, rgba(13, 2, 113, 1) 0%, rgba(6, 109, 170, 1) 50%, rgba(14, 4, 100, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0E0464', endColorstr='#0D0271', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(46deg, rgba(13, 2, 113, 1) 0%, rgba(6, 109, 170, 1) 50%, rgba(14, 4, 100, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(46deg, rgba(13, 2, 113, 1) 0%, rgba(6, 109, 170, 1) 50%, rgba(14, 4, 100, 1) 100%);
+
+}
+            
+
+.gradient_text{
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clop:text ;
+    -webkit-text-fill-color: transparent;
+}
+.section__padding{
+    padding: 4rem 6rem;
+}
+section_margin{
+    margin: 4rem 6rem;
+}
+.scale-up-ver-bottom {
+	-webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+  }
+  @keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+  }
+@media screen and (max-width: 700px){
+    .section__padding{
+        padding: 4rem 6rem;
+    }
+    .section_margin{
+        margin: 4rem 2rem;
+    }
+}
