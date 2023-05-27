@@ -2,7 +2,7 @@ import React from 'react';
 import { Footer,Blog,Possibility,Features,What,Header } from './container';
 import './App.css';
 
-import {Cta,Brand,Navbar} from './components'
+import {Cta,Brand,Navbar, Article} from './components'
 function App() {
   return (
     <div className="App">
@@ -14,7 +14,9 @@ function App() {
     
      <What/>
      <Features/>
+     <Article/>
      <Possibility/>
+    
      <Cta/>
      <Blog/>
      <Footer/>
