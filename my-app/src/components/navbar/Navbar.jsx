@@ -38,6 +38,10 @@ const Navbar = () => {
   <div className="share_navbar-menu_container_scale-up-ver-bottom">
     <div className="share_navbar-menu_container">
       <Menu/>
+      <div className="share_navbar-menu_container-links-sign">
+        <p>Sign in</p>
+        <button type='button'>Sign up</button>
+      </div>
     </div>
   </div>
 )}
