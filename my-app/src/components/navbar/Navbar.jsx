@@ -6,10 +6,10 @@ import logo from'../../assests/logo.png'
 const Menu=()=>(
   <>
   <p><a href='#home'>Home</a></p>
-          <p><a href='#what'>what</a></p>
-          <p><a href='#possibilities'>poss</a></p>
-          <p><a href='#features'>features</a></p>
-          <p><a href='#blog'>blog</a></p>
+          <p><a href="#what">About</a></p>
+          <p><a href='#possibility'>Work</a></p>
+          <p><a href='#features'></a></p>
+          
   </>
 )
 

@@ -5,16 +5,16 @@ import './what.css';
 const What = () => (
   <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
     <div className="gpt3__whatgpt3-feature">
-      <Feature title="What is GPT-3" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by." />
+      <Feature title="Who are we?" text="Share a Bite is a dedicated platform that brings together food lovers, local communities, and those in need, all with the shared mission of combating hunger. Our platform connects individuals, restaurants, and organizations, providing a simple and efficient way to donate surplus food and make a positive impact on people's lives." />
     </div>
     <div className="gpt3__whatgpt3-heading">
       <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
       <p>Explore the Library</p>
     </div>
     <div className="gpt3__whatgpt3-container">
-      <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-      <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
-      <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Feature title="Aim" text="At Share a Bite, we believe that everyone deserves access to nutritious meals. With a few clicks, you can be part of our movement and contribute to reducing food waste while helping those who are experiencing food insecurity. " />
+      <Feature title="Platform" text="Our user-friendly platform allows you to easily post available food items and connect with nearby recipients who can benefit from your donations."/>
+      <Feature title="Join Us" text="By joining Share a Bite, you become a Hunger Hero, a vital link in our network of compassion. Together, we can make a significant difference by fostering a culture of sharing and caring for one another. " />
     </div>
   </div>
 );

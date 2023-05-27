@@ -20,6 +20,10 @@
     line-height: 75px;
     letter-spacing: -0.04em;
 }
+.gpt3__header-content h1 span{
+    font-size: 100px;
+   color: antiquewhite;
+}
 
 .gpt3__header-content p {
     font-family: var(--font-family);
@@ -78,6 +82,7 @@
 
 .gpt3__header-content__people {
     width: 100%;
+    margin: 0;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -87,8 +92,9 @@
 }
 
 .gpt3__header-content__people img {
-    width: 181.79px;
-    height: 38px;
+    margin-left: 0;
+    width: 300px;
+    height: 200px;
 }
 
 .gpt3__header-content__people p {
